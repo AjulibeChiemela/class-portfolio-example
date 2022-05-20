@@ -10,6 +10,10 @@ header {
   padding: 0 20px;
   align-items: center;
   height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -70,6 +74,10 @@ h1 {
   width: 45%;
 }
 
+.div-2 p {
+  padding-right: 40%;
+}
+
 img, .img-bg {
   height:200px;
   width: 250px;
@@ -109,7 +117,7 @@ img, .img-bg {
   width:65%;
   display: block;
   height: 50px;
-  border: 1px solid rgb(218, 79, 132);
+  border: 2px solid rgb(218, 79, 132);
   background: none;
   margin-top: 20px;
   border-radius: 10px;
