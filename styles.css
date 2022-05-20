@@ -94,8 +94,35 @@ img, .img-bg {
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
-  padding: 6% 7%;
-  height: 400px;
+  padding: 5% 10%;
+  height: 500px;
+}
+
+#container-3 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  color: #fff;
+}
+
+#container-3 button {
+  width:65%;
+  display: block;
+  height: 50px;
+  border: 1px solid rgb(218, 79, 132);
+  background: none;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#container-3 button:hover {
+  background-color: rgb(218, 79, 132);
+}
+
+.btn-flexbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 footer {
@@ -109,3 +136,4 @@ footer {
 footer p {
   color: rgb(66, 65, 65);
 }
+
